@@ -1,0 +1,51 @@
+.card{
+    display: flex;
+}
+.card-container{
+    height:68vh;
+    width:20vw;
+    box-shadow: 1px 2px 5px 1px grey;
+    display: block;
+    padding:10px;
+    border-radius: 10px;
+}
+.fruitimg{
+    height:28vh;
+    width:20vw;
+    border-radius: 5px;
+}
+
+.line{
+    box-shadow: 0px 1px 7px 1px green;
+}
+.info{
+    height:15vh;
+}
+.head-1{
+    color:red;
+    margin-inline:3.5%;
+}
+.head-2{
+    color:grey;
+    margin-left: 13vh;
+}
+.head-3{
+    margin-left:10vh;
+}
+.btn-div{
+    display: flex;
+    justify-content: space-around;
+
+}
+.head-count{
+    margin-left:18vh;
+}
+.btn{
+    padding-block:7px;
+    padding-inline:25px;
+    margin-top:-15px;
+    cursor: pointer;
+    border-radius: 7px;
+    border:2px solid  lightgreen;
+    background-image: linear-gradient(lightgreen,rgb(8, 164, 8));
+}
